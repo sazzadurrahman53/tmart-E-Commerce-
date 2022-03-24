@@ -1,0 +1,110 @@
+{
+    "menus":[
+        {
+            "id":1,
+            "text": "Home",
+            "link": "/"
+        },
+        {
+            "id":2,
+            "text": "Portfolio",
+            "link": "/protfolio",
+            "dropdown": [
+                {
+                    "id":2.1,
+                    "text": "PORTFOLIO",
+                    "link": "/protfolio"
+                },
+                {
+                    "id":2.2,
+                    "text": "PORTFOLIO  DETAILS ",
+                    "link": "/protfolio"
+                }
+            ]
+        },  
+        {
+            "id":3,
+            "text": "Blog",
+            "link": "/blog",
+            "dropdown":[
+                {
+                    "id" :3.1,
+                    "text" :"Blog 3 Column",
+                    "link" : "/blog"
+                },
+                {
+                    "id" : 3.2,
+                    "text" : "Blog Details",
+                    "link" : "/blog"
+                }
+            ]
+        },
+       {
+            "id":4,
+            "text": "Shop",
+            "link": "/shop",
+            "dropdown":[],
+            "megaMenus":[
+                {
+                    "id":4.1,
+                    "text":"Shop Layout",
+                    "link" : "/shop",
+                    "megaMenusItem":[
+                        {
+                          "id":4.21,
+                          "text": "Shop 1",
+                          "link": "/shop"
+                        },
+                        {
+                            "id":4.22,
+                            "text": "Shop 2",
+                            "link": "/shop"
+                          },{
+                            "id":4.23,
+                            "text": "Shop 3",
+                            "link": "/shop"
+                          }
+                          
+                    ]
+                },
+
+                {
+                    "id":4.2,
+                    "text":"Product Details Layout",
+                    "link" : "/product-details",
+                    "megaMenusItem":[
+                        {
+                          "id":4.31,
+                          "text": "Product Layout 1",
+                          "link": "/product-details"
+                        },
+                        {
+                            "id":4.32,
+                            "text": "Product Layout 2",
+                            "link": "/product-details"
+                          },{
+                            "id":4.33,
+                            "text": "Product Layout 3",
+                            "link": "/product-details"
+                          }
+                          
+                    ]
+                }
+
+            ]
+        },
+        
+        {
+            "id":5,
+            "text": "Pages",
+            "link": "/pages",
+            "dropdown":[]
+        },
+        {
+            "id":6,
+            "text": "Contact",
+            "link": "/contact",
+            "dropdown":[]
+        }
+    ]
+}
